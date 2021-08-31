@@ -1,20 +1,27 @@
 # Documentation for Linear Search Algorithm
 
-# Linear Search Algorithm:-
+# Linear Search :-
 
-Linear search (known as sequential search) is an algorithm for finding a target value within a list. 
-It sequentially checks each element of the list for the target value until a match is found or until 
-all the elements have been searched.Linear search is implemented using following steps...
+Linear search (known as sequential search) is a very simple search algorithm.
+In this type of search, a sequential search is made over all items one by one.
+Every item is checked and if a match is found then that particular item is returned,
+otherwise the search continues till the end of the data collection.
 
-## linear search is implemented using following steps:-
-Step 1 - Read the search element from the user.
-Step 2 - Compare the search element with the first element in the list.
-Step 3 - If both are matched, then display "Given element is found!!!" and terminate the function
-Step 4 - If both are not matched, then compare search element with the next element in the list.
-Step 5 - Repeat steps 3 and 4 until search element is compared with last element in the list.
-Step 6 - If last element in the list also doesn't match, then display "Element is not found!!!" 
-and terminate the function.
+## Algorithm for linear search:-
+Step 1: Start
+Step 2: Declare array A and variables
+Step 3: Input for array
+Step 4: Input for x ,the no. to be searched
+Step 5: Set i to 0
+Step 6: if i > n-1 then go to step 11
+Step 7: if A[i] = x then go to step 10
+Step 8: Set i to i + 1
+Step 9: Go to Step 6
+Step 10: Print Element x Found at index i and go to step 8
+Step 11: Print element not found
+Step 12: Exit
+
 
 ##Time Complexity of Linear Search:
 
-Linear Search follows the sequential access. The time complexity of Linear Search is O(n).
+Linear Search follows the sequential access.so,the time complexity of Linear Search is O(n).
