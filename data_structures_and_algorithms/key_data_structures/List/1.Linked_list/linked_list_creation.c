@@ -33,6 +33,7 @@ int main()
     while (curr!=NULL)
     {
         printf("%d \n", curr-> data );
+        fflush(stdout); // flushes the stdout buffer
         curr = curr->next;
     }
 
