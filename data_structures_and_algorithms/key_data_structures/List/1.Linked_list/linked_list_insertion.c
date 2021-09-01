@@ -8,7 +8,29 @@ struct node
     int data;  
     struct node *next;   
 };  
-struct node *head;  
+struct node *head;
+
+void traverse_linked_list()
+{
+    struct node* curr;
+    curr = head;
+    
+    int node_count = 0;
+    if (curr== NULL)
+        printf("There is no data available -- its all empty!!");
+    else
+        { 
+            while (curr->next != NULL)
+            {
+                node_count++;
+                printf(" \n Node Count: %d,  %d", node_count, curr-> data);
+                curr = curr-> next;
+            }
+            printf(" \n Traversal is complete!! ");
+
+        }
+}
+
 void main()
 {
     struct node *ptr,*temp;  
@@ -36,5 +58,6 @@ void main()
         ptr->next = NULL;  
         printf("\nNode inserted");  
 
-    }  
+    } 
+    traverse_linked_list(); 
 }  
