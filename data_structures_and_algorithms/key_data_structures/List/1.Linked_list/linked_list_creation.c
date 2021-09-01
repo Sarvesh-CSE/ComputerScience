@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node {
+struct node {
 	int data;
-	struct Node* next;
+	struct node* next;
 };
 
 // Program to create a simple linked list with 3 nodes
 int main()
 {
-	struct Node* head = NULL;
-	struct Node* second = NULL;
-	struct Node* third = NULL;
-    struct Node* curr = NULL;
+	struct node* head = NULL;
+	struct node* second = NULL;
+	struct node* third = NULL;
+    struct node* curr = NULL;
 
 	// allocate 3 nodes in the heap
-	head = (struct Node*)malloc(sizeof(struct Node));
-	second = (struct Node*)malloc(sizeof(struct Node));
-	third = (struct Node*)malloc(sizeof(struct Node));
+	head = (struct node*)malloc(sizeof(struct node));
+	second = (struct node*)malloc(sizeof(struct node));
+	third = (struct node*)malloc(sizeof(struct node));
 
 
     head->data = 1; // assign data in first node
