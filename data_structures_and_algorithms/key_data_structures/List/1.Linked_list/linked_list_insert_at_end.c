@@ -14,12 +14,13 @@ void main()
 {
     struct node *temp, *new_node;  
     int item;     
-    new_node = (struct node*)malloc(sizeof(struct node)); 
- 
     printf("\nEnter value?\n");  
-    scanf("%d",&item);  
+    scanf("%d",&item);
+
+    new_node = (struct node*)malloc(sizeof(struct node));   
     new_node->data = item;  
-    new_node -> next = NULL;  
+    new_node -> next = NULL; 
+
     if(head == NULL)  
         head = new_node;  
     else  
@@ -29,6 +30,6 @@ void main()
             temp = temp -> next; } 
         temp->next = new_node;  
     }
-        printf("\n Node inserted with value-- %d", new_node->data);
+        printf("\n Node inserted at the end with value %d", new_node->data);
   
 }  

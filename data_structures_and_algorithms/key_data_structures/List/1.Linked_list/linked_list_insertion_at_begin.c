@@ -13,15 +13,15 @@ void main()
 {
 
     struct node *new_node;  
-    int item;  
-    new_node = (struct node *) malloc(sizeof(struct node *));  
-
+    int item; 
     printf("\nEnter value\n");    
-    scanf("%d",&item);    
+    scanf("%d",&item);  
+
+    new_node = (struct node *) malloc(sizeof(struct node *));  
     new_node->data = item;  
     new_node->next = head;
-      
+
     head = new_node;  
-    printf("\nNode inserted");  
+    printf("\nNode inserted at the begining with value %d", new_node-> data);  
 
 }
