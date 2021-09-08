@@ -24,6 +24,7 @@ void main()
                 printf("\n2. Delete Element from Queue");
                 printf("\n3. Display All the Elements of Queue");
                 printf("\n4. Display Element at the Front position");
+                printf("\n 5. To exit the program");
                 printf("\nEnter your option:\t");
                 scanf("%d", &option);
                 switch(option)
@@ -48,7 +49,16 @@ void main()
         }
         printf("\n");
 }
- 
+
+// Inserting an element in queue
+int isFull()
+{
+        if(rear == MAX - 1)
+                return 1;
+        else
+                return 0;
+}
+
 void insert(int element)
 {
         if(isFull())
@@ -56,14 +66,25 @@ void insert(int element)
                 printf("\nQueue Overflow\n");
                 return;
         }
-        else if(front == -1)
+        else if(front == -1 && rear == -1)
         {
                 front = 0;
+                rear = 0;
         }
-        rear = rear + 1;
+        else{
+        rear = rear + 1;}
         queue_array[rear] = element;
 }
  
+// Deletion of element from queue
+int isEmpty()
+{
+        if(front == -1 || front == rear + 1)
+                return 1;
+        else
+                return 0;
+}
+
 int delete()
 {
         int item;
@@ -80,28 +101,12 @@ int delete()
         }
 }
  
-int isEmpty()
-{
-        if(front == -1 || front == rear + 1)
-                return 1;
-        else
-                return 0;
-}
- 
-int isFull()
-{
-        if(rear == MAX - 1)
-                return 1;
-        else
-                return 0;
-}
- 
 int peek()
 {
         if(isEmpty())
         {
                 printf("\nQueue Underflow\n");
-                exit(1);
+                // exit(1);
         }
         else
         {
@@ -111,10 +116,17 @@ int peek()
  
 void display()
 {
-        int count;
+        int i;
         printf("\nQueue:\n");
-        for(count = front; count <= rear; count++)
+        if(isEmpty())
         {
-                printf("%d\t", queue_array[count]);
+                printf("\nQueue Underflow\n");
+        }
+        else
+        {
+            for(i = front; i <= rear; i++)
+            {
+                    printf("%d\t", queue_array[i]);
+            }
         }
 }
