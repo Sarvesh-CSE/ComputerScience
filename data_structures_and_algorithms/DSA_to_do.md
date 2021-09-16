@@ -10,9 +10,9 @@
 # Programming Practice -- Linked List
 
 ## WAP for deleting an element from the linked list
-## a. Deleting an element from the end of linked list
-## b. Deleting an element from the beginning of the linked list
-## c. Deleting an element present at a given location in the linked list
+* a. Deleting an element from the end of linked list
+* b. Deleting an element from the beginning of the linked list
+* c. Deleting an element present at a given location in the linked list
 
 ## WAP for operations in doubly linked list - creation, insertion, deletion, and traversal.
 
