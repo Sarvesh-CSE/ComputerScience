@@ -2,7 +2,6 @@
 
 
 #include <stdio.h>
-#include<limits.h>
  int main()
 {
 	int arr[50], i, Size;
@@ -12,21 +11,21 @@
 	scanf("%d", &Size);
 	
 	printf("\n Please Enter %d elements of an Array \n", Size);
-	for (i = 0; i < Size; i++)
+	for (i=0; i < Size; i++)
 	{
 		scanf("%d", &arr[i]);
     }
 	 
-	first_b = second_b = INT_MIN;  
+	first_b = second_b = arr[0];  
 	   
-	for (i = 0; i < Size; i++)
+	for (i = 1; i < Size; i++)
 	{
 		if(arr[i] > first_b)
 		{
 			second_b = first_b;
 			first_b = arr[i];
 		}
-		else if(arr[i] > second_b && arr[i] < first_b)
+		else if(arr[i] > second_b && arr[i]!=first_b)
 		{
 			second_b = arr[i];
 		}	
