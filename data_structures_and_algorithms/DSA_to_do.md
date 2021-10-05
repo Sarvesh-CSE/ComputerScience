@@ -1,11 +1,7 @@
-# Programming Practice using Array Data Structure 
-
-
-## Ques1. WAP to eliminate duplicate objects from a given array?
-
-## Ques2. WAP to find the second largest element in an array without using sorting?
-
-## Ques3. WAP to count the frequency of each element in an array?
+## Programming Practice using Array Data Structure 
+* WAP to eliminate duplicate objects from a given array?
+* WAP to find the second largest element in an array without using sorting?
+* WAP to count the frequency of each element in an array?
 
 # Programming Practice -- Linked List
 
