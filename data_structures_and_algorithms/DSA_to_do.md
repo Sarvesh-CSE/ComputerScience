@@ -25,5 +25,9 @@
 
 ## Ques 1. WAP to sort elements of a binary search tree (BST). You need to first create a BST with at least 5 user input, and then sort.
 
+## Problems on Algorithm
+
+* Briefly discuss Time Complexty Computation of Algorithm and what is the role of Asymptotic Notations in all that?
+
 
 
