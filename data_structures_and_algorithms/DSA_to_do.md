@@ -9,7 +9,7 @@
 * Deleting an element from the end of linked list
 * Deleting an element from the beginning of the linked list
 * Deleting an element present at a given location in the linked list
-
+git
 ## WAP for operations in doubly linked list - creation, insertion, deletion, and traversal.
 
 
@@ -28,6 +28,8 @@
 ## Problems on Algorithm
 
 * Briefly discuss Time Complexty Computation of Algorithm and what is the role of Asymptotic Notations in all that?
+
+* abc
 
 
 
