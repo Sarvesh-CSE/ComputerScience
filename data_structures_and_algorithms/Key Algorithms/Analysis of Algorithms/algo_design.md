@@ -12,4 +12,9 @@ Below are the quality web pointers to learn key algorithm design techniques.
 * https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)
 
 ## Dynamic Programming
+* https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/
+* https://www.codechef.com/wiki/tutorial-dynamic-programming
+* https://www.log2base2.com/algorithms/dynamic-programming/dynamic-programming.html
+* https://www.javatpoint.com/divide-and-conquer-method-vs-dynamic-programming
+
 
