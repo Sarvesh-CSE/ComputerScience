@@ -6,7 +6,7 @@ char pop();
 main()
 {
 int i, len ;
-char str[50] , ele ;
+char str[50] , ele:
 printf("enter the string");
 scanf("%s",str);
 len = strlen(str);
