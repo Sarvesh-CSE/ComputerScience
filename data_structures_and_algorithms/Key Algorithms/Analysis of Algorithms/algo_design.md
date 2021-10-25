@@ -17,4 +17,7 @@ Below are the quality web pointers to learn key algorithm design techniques.
 * https://www.log2base2.com/algorithms/dynamic-programming/dynamic-programming.html
 * https://www.javatpoint.com/divide-and-conquer-method-vs-dynamic-programming
 
+## Backtracking
+https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html
+
 
