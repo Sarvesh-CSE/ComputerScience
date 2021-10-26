@@ -18,6 +18,11 @@ Below are the quality web pointers to learn key algorithm design techniques.
 * https://www.javatpoint.com/divide-and-conquer-method-vs-dynamic-programming
 
 ## Backtracking
-https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html
+* https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html
+
+Some well-known problems that you could solve using Backtracking:
+* N Queen Problem
+* Graph Coloring Problem
+* Sum of Subsets Problem
 
 
