@@ -17,7 +17,7 @@ Below are the quality web pointers to learn key algorithm design techniques.
 * https://www.log2base2.com/algorithms/dynamic-programming/dynamic-programming.html
 * https://www.javatpoint.com/divide-and-conquer-method-vs-dynamic-programming
 
-## Backtracking
+## Backtracking => based on DFS
 * https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html
 
 Some well-known problems that you could solve using Backtracking:
@@ -25,4 +25,5 @@ Some well-known problems that you could solve using Backtracking:
 * Graph Coloring Problem
 * Sum of Subsets Problem
 
-
+## Branch & Bound (B&B) => based on BFS
+* https://medium.com/@leenancyparmar1999/knapsack-problem-branch-and-bound-approach-1fdab6d9a241
