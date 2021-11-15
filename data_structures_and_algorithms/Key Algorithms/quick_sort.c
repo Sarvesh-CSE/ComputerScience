@@ -1,14 +1,23 @@
 #include<stdio.h>
 void quicksort(int number[25],int first,int last){
-   int i, j, pivot, temp;
-
    if(first<last){
-      pivot=first;
+        int pivot_index = partition(number, first, last);
+        quicksort(number,first,pivot_index-1);
+        quicksort(number,pivot_index+1,last);
+
+   }
+}
+
+int partition(int number[25],int first,int last)
+{
+    int i, j, temp;
+    if(first<last){
+      int pivot =first;
       i=first;
       j=last;
 
       while(i<j){
-         while(number[i]<=number[pivot]&&i<last)
+         while(number[i]<=number[pivot] && i<last)
             i++;
          while(number[j]>number[pivot])
             j--;
@@ -22,26 +31,25 @@ void quicksort(int number[25],int first,int last){
       temp=number[pivot];
       number[pivot]=number[j];
       number[j]=temp;
-      quicksort(number,first,j-1);
-      quicksort(number,j+1,last);
-
    }
+   return j;
 }
 
 int main(){
-   int i, count, number[25];
+   int count, number[25];
+   int pivot, first, last;
 
    printf("How many elements are you going to enter? \t ");
    scanf("%d",&count);
 
    printf("Enter %d elements: ", count);
-   for(i=0;i<count;i++)
+   for(int i=0;i<count;i++)
       scanf("%d",&number[i]);
 
    quicksort(number,0,count-1);
 
    printf("Order of Sorted elements: ");
-   for(i=0;i<count;i++)
+   for(int i=0;i<count;i++)
       printf(" %d",number[i]);
 
    return 0;
