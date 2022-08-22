@@ -1,3 +1,13 @@
+# Unit I
+Topics Covered in https://jcsites.juniata.edu/faculty/rhodes/dbms/dbarch.htm are,
+    A. Three Level Database Architecture
+    B. Data Modeling
+    C. Data Independence
+    D. Entity-Relationship Model
+    E. 
+
+
+
 # Database Security
 For this topic, you may refer the below URL from IBM.
 * https://www.ibm.com/in-en/cloud/learn/database-security
