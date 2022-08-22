@@ -1,5 +1,5 @@
-# Unit I
-Topics Covered in https://jcsites.juniata.edu/faculty/rhodes/dbms/dbarch.htm are,
+   # Unit I
+     Topics Covered in https://jcsites.juniata.edu/faculty/rhodes/dbms/dbarch.htm are,
     * Three Level Database Architecture
     * Data Modeling
     * Data Independence
