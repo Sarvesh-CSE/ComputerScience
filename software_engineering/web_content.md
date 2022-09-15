@@ -8,17 +8,17 @@ SRS Structure
 1. Introduction
    * Purpose, Intended Audience, Scope, Definitions, and References
 2. Overall Description
-              -- User Interfaces
-              -- System Interfaces (e.g., SSMS software, Python modules)
-              -- Constraints, Assumptions and Dependencies
-              -- User Characteristics/Roles (e.g., Student, Faculty, and Admin)
-      3. System Features and Requirements
-              -- Functional Requirements
-              -- Non-functional Requirements
-              -- Use-cases
-              -- External Interface Requirements (e.g, database of PayPal for fee submission in BHU)
-              -- Logical Database Requirements
-        4. Share with end customer for approval.
+   * User Interfaces
+   * System Interfaces (e.g., SSMS software, Python modules)
+   * Constraints, Assumptions and Dependencies
+   * User Characteristics/Roles (e.g., Student, Faculty, and Admin)
+3. System Features and Requirements
+    * Functional Requirements
+    * Non-functional Requirements
+    * Use-cases
+    * External Interface Requirements (e.g, database of PayPal for fee submission in BHU)
+    * Logical Database Requirements
+4. Share with end customer for approval.
 
 
 
