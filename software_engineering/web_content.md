@@ -25,6 +25,16 @@
    * economic perspective (e.g., is it under budget?)
 3. Technical Feasibility
 4. Operational Feasibility
+     * Fill the gap between what is developed by s/w dev team and what is user expectation.
+5. Legal Feasibility
+
+---
+**Fact Finding Techniques**
+1. Interviews
+2. Group Discussions
+3. Site Visits
+4. Presentations
+5. Questionnaires
 
 
 
