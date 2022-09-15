@@ -1,12 +1,12 @@
 Software Requirement Specification (SRS)
 * description of software agreed between parties prior to its actual development
-        * clear mention of functional and non-functional requirements
-        * may have use-cases describing the interaction between various different entities
+* clear mention of functional and non-functional requirements
+* may have use-cases describing the interaction between various different entities
         
         
 SRS Structure
-      1. Introduction
-              -- Purpose, Intended Audience, Scope, Definitions, and References
+1. Introduction
+       * Purpose, Intended Audience, Scope, Definitions, and References
       2. Overall Description
               -- User Interfaces
               -- System Interfaces (e.g., SSMS software, Python modules)
