@@ -27,14 +27,25 @@
 4. Operational Feasibility
      * Fill the gap between what is developed by s/w dev team and what is user expectation.
 5. Legal Feasibility
+6. Schedule Feasibility
 
 ---
 **Fact Finding Techniques**
+* Generally conducted by Requirement Engineer
 1. Interviews
 2. Group Discussions
 3. Site Visits
 4. Presentations
 5. Questionnaires
+
+---
+**Structured Analysis Tools
+* used for information gathering using visualizatiuons and in crisp manner
+1. DFD
+2. Data Dictionary
+3. Decision Trees
+4. Decision Tables
+5. Structured English (pseudo code)
 
 
 
