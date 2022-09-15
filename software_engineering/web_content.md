@@ -22,7 +22,7 @@
 **Project Feasibility**
 * Studying the various different possibilities that may arise during s/w project development
 1. Economic Feasibility
-   * economic perspective (e.g., is it under budget?)
+   * economic perspective (e.g., whether the project is under budget?)
 3. Technical Feasibility
 4. Operational Feasibility
      * Fill the gap between what is developed by s/w dev team and what is user expectation.
@@ -39,7 +39,7 @@
 5. Questionnaires
 
 ---
-**Structured Analysis Tools
+**Structured Analysis Tools**
 * used for information gathering using visualizatiuons and in crisp manner
 1. DFD
 2. Data Dictionary
