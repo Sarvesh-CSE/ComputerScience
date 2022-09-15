@@ -7,7 +7,7 @@ Software Requirement Specification (SRS)
 SRS Structure
 1. Introduction
    * Purpose, Intended Audience, Scope, Definitions, and References
-      2. Overall Description
+2. Overall Description
               -- User Interfaces
               -- System Interfaces (e.g., SSMS software, Python modules)
               -- Constraints, Assumptions and Dependencies
