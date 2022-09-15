@@ -22,8 +22,9 @@
 **Project Feasibility**
 * Studying the various different possibilities that may arise during s/w project development
 1. Economic Feasibility
-2. Technical Feasibility
-3. Operational Feasibility
+   * economic perspective (e.g., is it under budget?)
+3. Technical Feasibility
+4. Operational Feasibility
 
 
 
