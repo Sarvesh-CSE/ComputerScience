@@ -1,5 +1,5 @@
 Software Requirement Specification (SRS)
-        * description of software agreed between parties prior to its actual development
+* description of software agreed between parties prior to its actual development
         * clear mention of functional and non-functional requirements
         * may have use-cases describing the interaction between various different entities
         
