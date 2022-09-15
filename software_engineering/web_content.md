@@ -20,6 +20,9 @@
 ---
 
 **Project Feasibility**
+1. Economic Feasibility
+2. Technical Feasibility
+3. Operational Feasibility
 
 
 
