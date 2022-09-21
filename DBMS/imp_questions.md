@@ -1,3 +1,8 @@
+In formating this document, take help of below tutorial.
+https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3
+
+
+
 1. Given relations r(w, x) and s(y, z), the result of 
 select distinct w, x 
 from r, s 
