@@ -7,10 +7,7 @@ is guaranteed to be same as r, provided (GATE CS 2000)
 (c) s has no duplicates and r is non-empty 
 (d) r and s have the same number of tuples 
 
-
 2. Given the following relation instance. 
- 
-
 x  y  z
 1  4  2
 1  5  3
@@ -22,12 +19,17 @@ Which of the following functional dependencies are satisfied by the instance? (G
 (c) YZ -> X and X -> Z 
 (d) XZ -> Y and Y -> X 
 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. Claim: A×B=∅ iff A=∅ or B=∅
+3. Consider a schema R(A, B, C, D) and functional dependencies A -> B and C -> D. Then the decomposition of R into R1 (A, B) and R2(C, D) is (GATE CS 2001) 
+a) dependency preserving and loss less join 
+b) loss less join but not dependency preserving 
+c) dependency preserving but not loss less join 
+d) not dependency preserving and not loss less join 
+
+![image](https://user-images.githubusercontent.com/37449436/191440345-a796a38f-1798-4a2c-8c32-0ab6e90a8b09.png)
+
+
+
+Claim: A×B=∅ iff A=∅ or B=∅
 
 Proof: If A=∅ or B=∅, then there is no (a,b) such that a∈A and b∈B. Therefore A×B, which is the set of these pairs, is empty.
 
