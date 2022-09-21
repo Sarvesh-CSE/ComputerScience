@@ -32,6 +32,7 @@ d) not dependency preserving and not loss less join
 
 ![image](https://user-images.githubusercontent.com/37449436/191440345-a796a38f-1798-4a2c-8c32-0ab6e90a8b09.png)
 
+![image](https://user-images.githubusercontent.com/37449436/191474631-9205b927-0297-4e12-b7c8-4646207eeaab.png)
 
 
 Claim: A×B=∅ iff A=∅ or B=∅
