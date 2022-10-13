@@ -1,3 +1,6 @@
+# Big O Notation
+* https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/
+
 # Key Algorithm Design Techniques
 
 Below are the quality web pointers to learn key algorithm design techniques.
