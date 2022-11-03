@@ -23,5 +23,6 @@ For this topic, you may refer the below URL from IBM.
 ## Two Phase Locking
 Nicely Presented -- https://en.wikipedia.org/wiki/Two-phase_locking
 My paper --- CSR one
+https://bjohnson.lmu.build/cmsi486web/week06.html
 
 
