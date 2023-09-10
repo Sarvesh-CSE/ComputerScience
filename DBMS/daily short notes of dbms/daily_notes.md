@@ -40,3 +40,44 @@
    * delete
 10. Data representation
   ###                                *********  THE END *******
+
+  ## 09 Sep,2023
+
+1. Anamoly :- **"It means the inconsistency occurred in the relational table during the operations performed 
+                on the relational table ".**
+              * There can be three types of anamoly
+                 : UPDATE
+                 : INSERT
+                 : DELETE
+2. **REDUNDANCY IS BAD OR GOOD ?**
+    If we have one common column in the  table, then only we can join the two tables. So there is Redundancy is a good factor.
+   Redundancy can never, ever be eliminate it can be eliminate only.
+
+3. What is NORAMALISATION?
+                : To remove the anomalies of the database, **NORMALISATION** is the process which is done where the splitting of the table and joining of the table 
+                    (different types of join) occurs.
+     ### TYPES OF NORMAL FORMS IN DBMS 
+   <img
+  src="https://cdn.hackr.io/uploads/posts/attachments/1666888816mdnYlrMoEE.png"
+  alt="Alt text"
+  title="TYPES OF NORMALISATION ">
+     1. **First Normal Form (1NF)** 
+         * It states that an attribute of a table cannot hold multiple value. It must hold only single-valued attribute.
+         * First normal form disallows the multi-valued attribute, composite attribute, and their combinations.
+    
+    2. **Second Normal Form (2NF)** 
+         * In the 2NF, relational must be in 1NF.
+         * In the second normal form, all non-key attributes are fully functional dependent on the primary key.
+    
+    3. **Third Normal Form (3NF)**
+        * A relation will be in 3NF if it is in 2NF and not contain any transitive partial dependency.
+        * 3NF is used to reduce the data duplication. It is also used to achieve the data integrity.
+
+    4. **Fourth normal form (4NF)** :-
+        * A relation will be in 4NF if it is in Boyce Codd normal form and has no multi-valued dependency.
+        * For a dependency A → B, if for a single value of A, multiple values of B exists, then the relation will be a multi-valued 
+          dependency.
+      
+    5.  **Fifth normal form (5NF)** :-
+         * A relation is in 5NF if it is in 4NF and not contains any join dependency and joining should be lossless.
+         * 5NF is satisfied when all the tables are broken into as many tables as possible in order to avoid redundancy. 
