@@ -80,4 +80,7 @@
       
     5.  **Fifth normal form (5NF)** :-
          * A relation is in 5NF if it is in 4NF and not contains any join dependency and joining should be lossless.
-         * 5NF is satisfied when all the tables are broken into as many tables as possible in order to avoid redundancy. 
+         * 5NF is satisfied when all the tables are broken into as many tables as possible in order to avoid redundancy.
+
+      ###                                *********  THE END *******
+ 
