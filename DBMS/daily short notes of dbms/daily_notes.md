@@ -83,4 +83,25 @@
          * 5NF is satisfied when all the tables are broken into as many tables as possible in order to avoid redundancy.
 
       ###                                *********  THE END *******
- 
+
+
+
+   ## 11 Sep,2023
+
+   1. GROUP BY CLAUSE :-
+    * The GROUP BY statement is often used with aggregate functions **(COUNT(), MAX(), MIN(), SUM(), AVG())** to group the result-set by one or more columns.
+    * example:- <img src="https://www.boardinfinity.com/blog/content/images/2023/02/groupby-sql.png" >
+    * Syntax of the SQL GROUP BY clause −
+                                            SELECT column_name(s),count(*)
+                                             FROM table_name
+                                            GROUP BY column_name(s);
+    * NESTED GROUP BY :-
+    *                    which means that one group function can enclose an expression that is itself a group operation on another expression or column.
+    * FOR MORE REFERENCE visit:- 
+                                 https://sql-bits.com/groups-of-groups-in-sql/#:~:text=It%20means%20using%20nested%20GROUP,500%20views%2C%20and%20so%20on.
+
+   2. Query Optimization:- Query optimization is the process of selecting an efficient execution plan for evaluating the query.
+
+    ###                                *********  THE END *******
+
+      
