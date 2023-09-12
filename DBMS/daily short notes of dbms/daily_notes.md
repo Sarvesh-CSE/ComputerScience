@@ -70,8 +70,12 @@
          * In the second normal form, all non-key attributes are fully functional dependent on the primary key.
     
     3. **Third Normal Form (3NF)**
-        * A relation will be in 3NF if it is in 2NF and not contain any transitive partial dependency.
-        * 3NF is used to reduce the data duplication. It is also used to achieve the data integrity.
+         * A relation will be in 3NF if it is in 2NF and not contain any transitive partial dependency.
+         * 3NF is used to reduce the data duplication. It is also used to achieve the data integrity.
+
+   3.1  **Boyce-Codd Normal Form (BCNF)**
+          * The table should be in the 3rd Normal Form.
+          * X should be a superkey for every functional dependency (FD) X−>Y in a given relation.
 
     4. **Fourth normal form (4NF)** :-
         * A relation will be in 4NF if it is in Boyce Codd normal form and has no multi-valued dependency.
@@ -92,11 +96,11 @@
     * The GROUP BY statement is often used with aggregate functions **(COUNT(), MAX(), MIN(), SUM(), AVG())** to group the result-set by one or more columns.
     * example:- <img src="https://www.boardinfinity.com/blog/content/images/2023/02/groupby-sql.png" >
     * Syntax of the SQL GROUP BY clause −
-                                            SELECT column_name(s),count(*)
+      *                                     SELECT column_name(s),count(*)
                                              FROM table_name
                                             GROUP BY column_name(s);
     * NESTED GROUP BY :-
-    *                    which means that one group function can enclose an expression that is itself a group operation on another expression or column.
+      * which means that one group function can enclose an expression that is itself a group operation on another expression or column.
     * FOR MORE REFERENCE visit:- 
                                  https://sql-bits.com/groups-of-groups-in-sql/#:~:text=It%20means%20using%20nested%20GROUP,500%20views%2C%20and%20so%20on.
 
@@ -104,4 +108,73 @@
 
     ###                                *********  THE END *******
 
-      
+
+## 12 Sep, 2021
+
+1. Data Mart :-
+ * Data marts make specific data available to a defined group of users, which allows those users to quickly access 
+   critical insights without wasting time searching through an entire data warehouse.
+
+2. Transaction :-
+   * A transaction can be defined as a group of tasks. A single task is the minimum processing unit which cannot be 
+    divided further.
+  * It follows **ACID** property.
+  * ACID stands for "ATOMICITY"; "CONSISTENCY"; "ISOLATION"; "DURABILITY" .
+    <img src="https://cdn1.byjus.com/wp-content/uploads/2022/03/word-image159.png">
+
+3. MULTI-VALUED ATTRIBUTE :-
+   * Multi-valued attributes can take up and store more than one value at a time for an entity instance from a set 
+     of possible values.
+   * Multi valued attributes are represented by double-lined ellipse.
+   * <img src="https://prepinsta.com/wp-content/uploads/2023/02/MultiValued-Attribute-in-DBMS.webp">
+
+4. COMPOSITE ATTRIBUTE :-
+   * Composite attributes in DBMS are those attributes that can further divide into more simple attributes.
+   * <img src="https://prepinsta.com/wp-content/uploads/2023/01/Composite-Attribute-in-DBMS-img.webp">
+
+5. COMPOSITE KEY :-
+   * composite key is a candidate key that consists of two or more attributes (table columns) that together uniquely 
+      identify an entity occurrence (table row).
+   * <img src="https://prepinsta.com/wp-content/uploads/2023/02/composite-Key-in-DBMS.webp">
+
+6. SRS = SOFTWARE REQUIREMENT SPECIFICATION .
+   * A software requirements specification (SRS) is a document that describes what the software will do and how it 
+    will be expected to perform. It also describes the functionality the product needs to fulfill the needs of all 
+    stakeholders (business, users).
+   * <img src="https://s7280.pcdn.co/wp-content/uploads/2017/09/srs-software-requirement-specifications- 
+      1024x754.jpg.optimal.jpg">
+
+7. **TYPES OF KEYS**
+    <img src="https://cdn.ttgtmedia.com/rms/onlineimages/data_management-database_keys.png">
+   * PRIMARY KEY :-
+      <img src="https://image.slidesharecdn.com/dbms-typesofkeys-180707062120/75/dbms-types-of-keys-5-2048.jpg?cb=1666011192">
+   * CANDIDATE KEY :-
+      <img src="https://prepinsta.com/wp-content/uploads/2023/01/Candidate-Key-in-DBMS.webp">
+
+   * ALTERNATE KEY :-
+     <img src="https://image.slidesharecdn.com/dbms-typesofkeys-180707062120/75/dbms-types-of-keys-6-2048.jpg?cb=1666011192">
+
+   * FOREIGN KEY :-
+     <img src="https://image.slidesharecdn.com/dbms-typesofkeys-180707062120/75/dbms-types-of-keys-8-2048.jpg?cb=1666011192">
+
+
+8. ### PRIME AND NON- PRIME ATTRIBUTE :-
+
+  **Prime attributes in DBMS** :- 
+  * A prime attribute is one of the attributes that make up the candidate key. In addition to being called prime 
+    attributes, key attributes is another name for this type of attribute. It is also present in all of the 
+    candidate keys.
+  * A set of attributes that uniquely identify tuples in a table is known as a Candidate Key. Candidate Key is a 
+    super key with no attributes that are repeated.
+ * They are key attributes because they can be used to uniquely identify any of the table's records.
+
+**Non-prime attributes in DBMS** :-
+ * Non-prime attributes are those attributes of the relationships that do not present in any of the possible 
+   candidate keys of the relation.
+ * They are also known as non-key attributes. A primary key is an attribute or group of attributes used to uniquely 
+   identify any record in a table. The values of a primary key cannot be duplicated.
+*  Non-prime (non-key) attributes are those that are not the primary key attributes. They can store a value an 
+   unlimited number of times. They are non-key attributes because they cannot be used to uniquely identify any of 
+   the table's records.
+
+  ###                                *********  THE END *******
