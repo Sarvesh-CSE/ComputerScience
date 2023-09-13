@@ -178,3 +178,63 @@
    the table's records.
 
   ###                                *********  THE END *******
+
+  ## 13 Sept ,2023
+
+  1. Functional Dependency :-
+    *  Functional dependency in DBMS refers to a relationship that is present between attributes 
+       of any table that are dependent on each other.
+  2. **TYPES OF FUNCTIONAL DEPENDENCY**
+     * The Functional Dependencies are of four major types:
+
+          * Trivial FD
+          * Non-Trivial FD
+          *  Completely Non-Trivial FD
+
+     Example
+    Let us look at an example that makes it easier to comprehend functional dependency.
+    
+    Suppose we have a <Student> table with two separate attributes − Stu_Id and Stu_Name.
+    
+    Stu_Id = Student ID
+    
+    Stu_Name = Student Name
+    
+    The StuId is our primary key. And StuId here identifies the StuName attribute uniquely. It is because if someone 
+    wants to know the student’s name, then you need to have the StuId at first.
+   <img src = "https://miro.medium.com/v2/resize:fit:654/1*_vjy4icscEIPolFRh3axTg.png">   
+    
+      * Trivial Functional Dependency :-
+        *A trivial functional dependency occurs when Q is a subset of P in −
+
+      P ->Q
+      
+      For example,
+      
+      Let us now consider the same <Section> table with two separate attributes to comprehend the 
+      trivial dependency’s concept. Here is a trivial functional dependency because SecId is a subset 
+      of SecId and SecName.
+      
+      { Sec_Id, Sec_Name } -> Sec Id
+
+      * Non - Trivial Dependency :-
+        * A non-trivial functional dependency occurs when Q is not a subset of P in −
+              
+          P -> Q
+              
+          For example,
+              
+          Sec_Id -> Sec_Name
+              
+          The FD given above is a functional dependency that is of a non-trivial type since 
+          SecName is not a subset of SecId.
+
+
+      * Completely Non-Trivial Functional Dependency :-
+       * A completely non-trivial functional dependency occurs when P intersection Q is null in −
+         P -> Q .
+
+      * 
+
+        
+        
