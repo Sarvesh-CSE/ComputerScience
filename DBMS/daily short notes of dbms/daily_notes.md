@@ -146,19 +146,36 @@
 
 7. **TYPES OF KEYS**
     <img src="https://cdn.ttgtmedia.com/rms/onlineimages/data_management-database_keys.png">
-   * PRIMARY KEY :-
-      <img src="https://image.slidesharecdn.com/dbms-typesofkeys-180707062120/75/dbms-types-of-keys-5-2048.jpg?cb=1666011192">
-   * CANDIDATE KEY :-
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230314174012/Different-types-of-keys.png">
+    
+    * SUPER KEY :-
+      Super key is a single key or a group of multiple keys that can uniquely identify tuples in a 
+      table.
+       <img src="https://i.ytimg.com/vi/DhZP4ezG8Oo/maxresdefault.jpg">
+
+    * PRIMARY KEY :-
+      <img src="https://prepinsta.com/wp-content/uploads/2023/01/Primary-Key-in-DBMS.webp">
+
+    * CANDIDATE KEY :-
       <img src="https://prepinsta.com/wp-content/uploads/2023/01/Candidate-Key-in-DBMS.webp">
 
-   * ALTERNATE KEY :-
-     <img src="https://image.slidesharecdn.com/dbms-typesofkeys-180707062120/75/dbms-types-of-keys-6-2048.jpg?cb=1666011192">
+
+    * ALTERNATE KEY :-
+     <img src="https://prepinsta.com/wp-content/uploads/2023/01/Alternate-Key-in-DBMS.webp">
+
 
    * FOREIGN KEY :-
      <img src="https://image.slidesharecdn.com/dbms-typesofkeys-180707062120/75/dbms-types-of-keys-8-2048.jpg?cb=1666011192">
 
 
-8. ### PRIME AND NON- PRIME ATTRIBUTE :-
+    * COMPOSITE KEY :-
+    * composite key is a candidate key that consists of two or more attributes (table columns) that 
+      together uniquely 
+      identify an entity occurrence (table row).
+    * <img src="https://prepinsta.com/wp-content/uploads/2023/02/composite-Key-in-DBMS.webp">
+
+
+9. ### PRIME AND NON- PRIME ATTRIBUTE :-
 
   **Prime attributes in DBMS** :- 
   * A prime attribute is one of the attributes that make up the candidate key. In addition to being called prime 
@@ -179,19 +196,26 @@
 
   ###                                *********  THE END *******
 
-  ## 13 Sept ,2023
+  ## 14 Sept ,2023
 
   1. Functional Dependency :-
     *  Functional dependency in DBMS refers to a relationship that is present between attributes 
        of any table that are dependent on each other.
-  2. **TYPES OF FUNCTIONAL DEPENDENCY**
+
+
+  2. ### RULES / Armstrong's Axioms for FDs:-
+   <img src="https://sceweb.uhcl.edu/yang/teaching/csci5333Fall04/FDinferenceRules.GIF">
+  
+  4. **TYPES OF FUNCTIONAL DEPENDENCY**
      * The Functional Dependencies are of four major types:
 
           * Trivial FD
           * Non-Trivial FD
           *  Completely Non-Trivial FD
-
-     Example
+          *  Transitive FD
+          *  Fully Functional Dependency
+          *  Partial Functional Dependency
+     * Example
     Let us look at an example that makes it easier to comprehend functional dependency.
     
     Suppose we have a <Student> table with two separate attributes − Stu_Id and Stu_Name.
@@ -200,11 +224,12 @@
     
     Stu_Name = Student Name
     
-    The StuId is our primary key. And StuId here identifies the StuName attribute uniquely. It is because if someone 
+    The StuId is our primary key. And StuId here identifies the StuName attribute uniquely. It is 
+     because if someone 
     wants to know the student’s name, then you need to have the StuId at first.
-   <img src = "https://miro.medium.com/v2/resize:fit:654/1*_vjy4icscEIPolFRh3axTg.png">   
+    <img src = "https://miro.medium.com/v2/resize:fit:654/1*_vjy4icscEIPolFRh3axTg.png">   
     
-      * Trivial Functional Dependency :-
+    * Trivial Functional Dependency :-
         *A trivial functional dependency occurs when Q is a subset of P in −
 
       P ->Q
@@ -217,7 +242,7 @@
       
       { Sec_Id, Sec_Name } -> Sec Id
 
-      * Non - Trivial Dependency :-
+    * Non - Trivial Dependency :-
         * A non-trivial functional dependency occurs when Q is not a subset of P in −
               
           P -> Q
@@ -230,11 +255,34 @@
           SecName is not a subset of SecId.
 
 
-      * Completely Non-Trivial Functional Dependency :-
-       * A completely non-trivial functional dependency occurs when P intersection Q is null in −
+    * Completely Non-Trivial Functional Dependency :-
+      * A completely non-trivial functional dependency occurs when P intersection Q is null in −
          P -> Q .
 
-      * 
+      * Transitive FD:-
+         * if A -> B and B -> C are true, then A -> C happens to be a transitive dependency.
+         * The given functional dependency can only be transitive when it is formed indirectly by two 
+           FDs
 
+ * Fully Functional Dependency & Partial Dependency  :-
+   <img src="https://slideplayer.com/slide/15408745/93/images/36/Full+Functional+Dependency+vs.+Partial+Dependency.jpg">
+
+5. **Representation of WEAK WNTITY AND STRONG ENTITY**:-
+   <img src="https://www.scaler.com/topics/images/strong-and-weak-entity-in-dbms-thumbnail.webp">
+
+6. CLOSURE METHOD :-
+   * To find all the set of candidate key in a given set of relation.
+
+7. Prime Attribute :- Part of Primary key.
+8. Non Prime attribute :- Does't a part of primary key.
+
+9.  FACT,DATA,KNOWLEDGE,INFORMATION,WISDOM.
+
+
+###                                *********  THE END *******
+
+   
+
+ 
         
         
