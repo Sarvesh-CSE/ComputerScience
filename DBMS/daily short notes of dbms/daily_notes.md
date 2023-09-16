@@ -276,7 +276,7 @@
 7. Prime Attribute :- Part of Primary key.
 8. Non Prime attribute :- Does't a part of primary key.
 
-9.  FACT,DATA,KNOWLEDGE,INFORMATION,WISDOM.
+9.  FACT,DATA,INFORMATION, KNOWLEDGE, and WISDOM.
 
 
 ###                                *********  THE END *******
