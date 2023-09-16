@@ -28,5 +28,3 @@ Processing and Query Optimization, Concurrency Control, and Recovery Techniques.
 4. R. Elmasri, S. B. Navathe, Fundamentals of Database Systems, Pearson Education Asia.
 
 5. R. Ramakrishnan, Database Management Systems, McGraw-Hill Education.
-
-13
