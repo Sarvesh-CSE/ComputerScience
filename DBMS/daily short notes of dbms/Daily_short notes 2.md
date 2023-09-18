@@ -56,4 +56,34 @@
    <img src ="https://i.ytimg.com/vi/CSqsjqLnfVo/maxresdefault.jpg">
 
 ### THE END**************************************************************
+
+
+## 18 Sep, 2023
+
+1. 4 NF Normal Form :-
+   * 1. It should be in the Boyce-Codd Normal Form (BCNF).
+   * 2. The table should not have any Multi-valued Dependency.
+    
+2. MULTIVALUED DEPENDENCY :-
+  * Multivalued dependency occurs when two attributes in a table are independent of each other but, both depend on a third 
+     attribute.
+  * A multivalued dependency consists of at least two attributes that are dependent on a third attribute that's why it 
+      always requires at least three attributes.
+
+  * EXAMPLE:-  <img src="https://scaler.com/topics/images/mvd.webp">
+  * **Representation of Multivalued Dependency(MVD)**
+      we write MVD as,
+                       ***a --> --> b***
+
+3. 5 NF NORMAL FORM:-
+   * 1. R should be already in 4NF. 
+   *  2. It cannot be further non loss decomposed (join dependency).
+
+4. JOIN DEPENDENCY:-
+   * A Join dependency in DBMS is a constraint in DBMS. A table(Suppose R) is considered a join dependency if it can be recreated by simply connecting multiple tables, each containing a subset of the R's attributes.
+  
+   * <img src="https://haygot.s3.amazonaws.com/questions/927726_917378_ans_b144504ad2ff40c2815816979eac2697.PNG">
+
+   * If lossless decompostion , join dependency should exist in 5 NF form.
+   * If lossy decomposition , join dependency shouldn't exist in 5 NF form. 
        
