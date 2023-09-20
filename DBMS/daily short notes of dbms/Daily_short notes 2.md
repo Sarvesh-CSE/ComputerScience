@@ -90,7 +90,7 @@
 
 ### THE END**************************************************************
 
-## 20 Sep, 2023
+## 19 Sep, 2023
 
 1. clone the *go mysql server* repository and try to read and understand READme.md file.
 2. Define Software:-
@@ -106,5 +106,5 @@
 3. ITERATIVE WATERFALL MODEL.
 4. FORWARD ENGINEERING AND BACKWARD ENGINEERING. 
   
-
+### THE END**************************************************************
        
