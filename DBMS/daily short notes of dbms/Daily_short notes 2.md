@@ -107,4 +107,38 @@
 4. FORWARD ENGINEERING AND BACKWARD ENGINEERING. 
   
 ### THE END**************************************************************
+
+## 20 Sep,2023
+
+1. Revision of all the normal forms.
+2. revision of partial and types of dependency.
+3. ER DIAGRAM :-
+   * It is an Entity Relationship Diagram used to ensure data integrity.
+   * it defines the relationship between atrributes, entities .
+
+4. ER model:-
+   <img src="https://meeraacademy.com/wp-content/uploads/2017/08/ERSymbol.png">
+   <img src="https://meeraacademy.com/wp-content/uploads/2017/09/erdiagramm-1.jpg">
+
+5. Types of CARDINALITY:-
+   * One-to-One cardinality
+   * One-to-Many cardinality
+   * Many-to-Many cardinality
+   * Many-to-One 
+
+6. Total Participation:-
+   * It specifies that each entity in the entity set must compulsorily participate in at least one relationship instance 
+     in that relationship set.
+   * That is why, it is also called as mandatory participation.
+   * Total participation is represented using a double line between the entity set and relationship set.
+   * <img src="https://i.imgur.com/ij8XKxG.png">
+
+7. Partial participation:-
+   * It specifies that each entity in the entity set may or may not participate in the relationship instance in that 
+     relationship set.
+  * That is why, it is also called as optional participation.
+  * Partial participation is represented using a single line between the entity set and relationship set.
+  * <img src="https://prepinsta.com/wp-content/uploads/2023/01/Partial-participation-constraint.webp">
+
+  ### THE END**************************************************************
        
