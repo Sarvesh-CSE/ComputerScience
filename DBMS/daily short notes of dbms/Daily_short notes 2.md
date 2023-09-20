@@ -85,5 +85,26 @@
    * <img src="https://haygot.s3.amazonaws.com/questions/927726_917378_ans_b144504ad2ff40c2815816979eac2697.PNG">
 
    * If lossless decompostion , join dependency should exist in 5 NF form.
-   * If lossy decomposition , join dependency shouldn't exist in 5 NF form. 
+   * If lossy decomposition , join dependency shouldn't exist in 5 NF form.
+  
+
+### THE END**************************************************************
+
+## 20 Sep, 2023
+
+1. clone the *go mysql server* repository and try to read and understand READme.md file.
+2. Define Software:-
+   * **FROM USER POINT OF VIEW**:-
+      * Software can be finite number of scripts or programs having a proper documentation .
+      * A Software must accompany a detail documentation so that anyone can update that software programs .
+      * Without documentation no one can fix a bug, update a feauture .
+      * Complexity of software :- No single person can update the whole script of software.
+
+  * **FROM DEVELOPER POINT OF VIEW**:-
+     * A Software can be a finite no. of scripts or programs having proper test scripts .
+
+3. ITERATIVE WATERFALL MODEL.
+4. FORWARD ENGINEERING AND BACKWARD ENGINEERING. 
+  
+
        
