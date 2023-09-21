@@ -2,13 +2,13 @@
 
 1. Stackoverflow, Task, Features, Mainbranch, Pipeline
 2. Software  development  life-cycle:
-    * Planning and brainstorming
-    * Analysis
-    * Design
-    * Development
-    * Testing
-    * Deployment
-    * Maintenance
+    * stage1: Planning and brainstorming
+    * stage2: Analysis
+    * stage3: Design
+    * stage4: Development
+    * stage5: Testing
+    * stage6: Deployment
+    * stage7: Maintenance
  3. Mainbranch:
     * Automata theory and formal languages
     * computability theory
