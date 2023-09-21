@@ -271,7 +271,7 @@
    <img src="https://www.scaler.com/topics/images/strong-and-weak-entity-in-dbms-thumbnail.webp">
 
 6. CLOSURE METHOD :-
-   * To find all the set of candidate key in a given set of relation.
+   * To find all the candidate keys of a given relation.
 
 7. Prime Attribute :- Part of Primary key.
 8. Non Prime attribute :- Does't a part of primary key.
