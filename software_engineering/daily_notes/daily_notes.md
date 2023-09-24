@@ -61,5 +61,5 @@
  11. Modular design
  12. Design and Testing
  13. Documentation
- 14. CSV file (Comma Seperated Value file)
+ 14. CSV file (Comma Separated Value file)
       ###         **************THE END ***********
