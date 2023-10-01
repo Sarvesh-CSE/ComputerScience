@@ -14,7 +14,7 @@ Tables, views and indexes, Queries and sub queries, Aggregate functions.
 
 Properties of Decomposition, Normalization up to 3 NF and BCNE.
 
-Selected Database Issues: Security, Transaction Management, Introduction to Query
+**Selected Database Issues**: Security, Transaction Management, Introduction to Query
 
 Processing and Query Optimization, Concurrency Control, and Recovery Techniques.
 
