@@ -6,7 +6,7 @@ A self-join in SQL joins a table to itself. This means that each row in a table 
 
 ### Syntax
 *                   SELECT column_name(s)
-*                   FROM table1 a, table1 b
-*                   WHERE a.common_field = b.common_field;
+                    FROM table1 a, table1 b
+                    WHERE a.common_field = b.common_field;
 
-<img src ="https://cdn.educba.com/academy/wp-content/uploads/2020/03/student-id.jpg">
+* Example <img src ="https://cdn.educba.com/academy/wp-content/uploads/2020/03/student-id.jpg">
