@@ -1,4 +1,4 @@
-## sept 14, 23
+## sept 15, 23
 
 1. Stackoverflow, Task, Features, Mainbranch, Pipeline
 2. Software  development  life-cycle:
