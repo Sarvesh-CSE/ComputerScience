@@ -9,5 +9,8 @@ Key Sorting Algorithms
       https://en.wikipedia.org/wiki/Insertion_sort
 
 
-Introdiction to time complexity of algorithms
+Introduction to time complexity of algorithms
       * https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algorithms/
+
+A course on Algorithms:
+      * https://www2.hawaii.edu/~suthers/courses/ics311f20/index.html
